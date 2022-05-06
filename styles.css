@@ -1,54 +1,65 @@
 body {
   font-family: "Montserrat";
 }
+
 h1 {
   font-family: 'Montserrat';
   font-size: 3.2rem;
   line-height: 1.5;
   font-weight: 900;
 }
+
 h2 {
   font-family: 'Montserrat';
   font-weight: 900;
   font-size: 2.5rem;
   line-height: 1.5;
 }
+
 h3 {
   font-family: 'Montserrat';
   font-weight: 900;
   font-size: 1.1rem;
 }
+
 p {
   color: #8f8f8f;
 }
+
 .container-fluid {
-  padding: 3% 10% 7%;
+  padding: 3% 6% 7%;
 }
+
 /* id */
 #title {
   background-color: #ff4c68;
   color: #fff;
 }
+
 /* navigation bar */
 .navbar {
   padding-bottom: 4.5rem;
 }
+
 .navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
 }
+
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat";
   font-weight: lighter;
   margin: 0 18px;
 }
+
 .download-button {
   margin: 5% 3% 5% 0;
 }
+
 .title-image {
-  width: 20%;
+  width: 25%;
   transform: rotate(25deg);
   position: absolute;
   right: 20%;
@@ -56,65 +67,103 @@ p {
 
 /* features section */
 #features {
-  padding: 7% 15%;
+  padding: 4% 15%;
   background-color: #fff;
-position: relative;
+  position: relative;
 }
+
 .feature-box {
   text-align: center;
   padding: 5%;
 }
+
 .icon {
   color: #ef8172;
   margin-bottom: 1rem;
 }
+
 .icon:hover {
   color: #ff4c68;
 }
 
 /* testimonials section */
-
 #testimonials {
   text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
+
 .testimonial-image {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
 }
+
 .carousel-item {
   padding: 7% 15%;
 }
+
 #press {
   background-color: #E8F9FD;
   text-align: center;
-  padding: 5% 5%;
+  padding: 3% 3%;
 }
+
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
 }
+
 /* pricing section */
 #pricing {
   text-align: center;
 }
+
 .pricing-column {
   padding: 3% 2%;
-}
-.card {
   background-color: #E8F9FD;
 }
-.text {
-  padding: 3% 3%;
-margin-bottom: 0;
+
+@media (max-width: 1028px) {
+#title {
   text-align: center;
 }
+  .title-image {
+position: static;
+width: 50%;
+transform: rotate(0);
+  }
+}
+.card {
+  background-color: #EFFFFD;
+}
+
+.text {
+  background-color: #E8F9FD;
+  color: #11999E;
+  text-align: center;
+  padding : 3% 15%;
+  transform: rotateY(0);
+}
+
+
 #cta {
   text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
 }
+.CTA-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
 #footer {
+  background-color: #E8F9FD;
   text-align: center;
-  padding-top: 30px;
+  padding: 3% 15%;
+}
+.social-icon {
+  margin: 20px 10px;
 }
